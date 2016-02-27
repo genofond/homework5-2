@@ -3,52 +3,110 @@
 }
 
 body {
-	background: #000;
-}
-
-.content {
-	margin: 0 auto;
-	margin-top: 60px;
-	width: 500px;
-	height: 540px;
+	background: #bdbdbd;
 }
 
 table {
-	width: 100%;
-	height: 100%;
-	background: #fff;
-	color: #fff;
-	border-collapse: separate;
-	empty-cells: show;
-	
-}
-
-tr {
-	height: 1px;
+	margin: auto;
+    margin-top: 40px;
+    border: 20px solid #bdbdbd;
+    background: #fff;
 }
 
 td {
-	width: 1px;
-	height: 1px;
-	border: 5px solid #000;
+    box-sizing: border-box;
+    border: 10px solid #000;
 }
 
-.yellow {
-	background: #fff063;
-	color: #fff063;
+tr:nth-child(1) {
+  height: 60px;
 }
 
-.red {
-	background: #fe5933;
-	color: #fe5933;
+tr:nth-child(2) {
+  height: 140px;
 }
 
-.gray {
-	background: #232c28;
-	color: #232c28;
+tr:nth-child(3) {
+  height: 140px;
 }
 
-.blue {
-	background: #05437f;
-	color: #05437f;
+tr:nth-child(4) {
+  height: 70px;
+}
+
+tr:nth-child(5) {
+  height: 70px;
+}
+
+tr:nth-child(6) {
+  height: 35px;
+}
+
+tr:nth-child(7) {
+  height: 45px;
+}
+
+tr:nth-child(1) td:nth-child(3) {
+  background-color: #fff063;
+}
+
+tr:nth-child(2) td:nth-child(2) {
+  background-color: #fe5933;
+}
+
+tr:nth-child(2) td:nth-child(3) {
+  background-color: #fff063;
+}
+
+tr:nth-child(3) td:nth-child(2) {
+  width: 85px;
+}
+
+tr:nth-child(4) td:nth-child(1) {
+  width: 70px;
+  background-color: #232c28;
+}
+
+tr:nth-child(4) td:nth-child(2) {
+  width: 70px;
+  background-color: #232c28;
+}
+
+tr:nth-child(4) td:nth-child(3) {
+  width: 140px;
+}
+
+tr:nth-child(4) td:nth-child(4) {
+  width: 180px;
+}
+
+tr:nth-child(5) td:nth-child(1) {
+  width: 60px;
+  background-color: #fff063;
+}
+
+tr:nth-child(5) td:nth-child(2) {
+  width: 70px;
+  background-color: #232c28;
+}
+
+tr:nth-child(5) td:nth-child(3) {
+  width: 70px;
+  background-color: #232c28;
+}
+
+tr:nth-child(5) td:nth-child(4) {
+  width: 60px;
+}
+  
+tr:nth-child(5) td:nth-child(5) { 
+  background-color: #05437f;
+}
+
+tr:nth-child(6) td:nth-child(2) {
+  background-color: #232c28;
+}
+
+tr:nth-child(6) td:nth-child(3) {
+  width: 60px;
 }
